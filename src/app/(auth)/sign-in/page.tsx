@@ -1,6 +1,10 @@
+import Form from "@/ui/components/auth/sign-in/Form"
+
 function page() {
   return (
-    <div>sign in</div>
+    <div>
+      <Form />
+    </div>
   )
 }
 

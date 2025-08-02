@@ -112,6 +112,27 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+[data-theme="dark-nova"] {
+  --background: #0d1117;
+  --foreground: #e6edf3;
+  --primary: #3b82f6;
+  --secondary: #f472b6;
+}
+
+[data-theme="light-breeze"] {
+  --background: #f9fafb;
+  --foreground: #111827;
+  --primary: #2563eb;
+  --secondary: #14b8a6;
+}
+
+[data-theme="fusion-pulse"] {
+  --background: #1f2937;
+  --foreground: #f1f5f9;
+  --primary: #a855f7;
+  --secondary: #10b981;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
